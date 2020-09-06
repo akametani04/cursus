@@ -4,10 +4,10 @@
 
 ## Usage
 * libft : 実際に存在する関数の挙動を理解し、再現したもの。
-	* -make allでlibft.aライブラリを作成します。
+	* -make allでライブラリ(libft.a)を作成します。
  
 * get_next_line　: BUFFER_SIZEずつファイルの中身を読み込み、1行ずつファイルの中身を出力します。
-
+* ファイル名はコマンドライン引数で入力します。（試せるように、[sample.txt]というサンプルファイルを入れています。）
 ```
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=[１度に読み込むバイト数] get_next_line.c get_next_line_utils.c main.c
 ./a.out [ファイル名]
