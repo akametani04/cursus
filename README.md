@@ -9,7 +9,7 @@
 * get_next_line　: BUFFER_SIZEずつファイルの中身を読み込み、1行ずつファイルの中身を出力します。
 
 ```
-gcc -Wall -Wextra -Werror -D BUFFER_SIZE=[１度に読み込むバイト数] get_next_line.c get_next_line_cutils.c main.c
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=[１度に読み込むバイト数] get_next_line.c get_next_line_utils.c main.c
 ./a.out [ファイル名]
 ```
 
