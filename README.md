@@ -1,5 +1,5 @@
 # cursus　
-* 現在通っている[スクール](https://42tokyo.jp/)で課題として作成した関数です。
+* 現在通っている[スクール](https://42tokyo.jp/)で課題として作成したものです。
 * 課題の配布はNGのため、成果物のみとなります。
 
 ## Usage
@@ -20,4 +20,4 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=[１度に読み込むバイト数] get
 	* ∟精度：対応∟長さ修飾子：非対応
 	* ∟変換指定子：cspdiuxX%対応
 	* ∟アスタリスク対応
-	* -make allでlibftprintf.aライブラリが作成されます。
+	* -make allでライブラリ(libftprintf.a)を作成します。
